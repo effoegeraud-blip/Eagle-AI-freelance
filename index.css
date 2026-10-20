@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #0d1b24;
+  --color-panel: #14262f;
+  --color-line: #24404c;
+  --color-mist: #a9bcc4;
+  --color-snow: #eef3f4;
+  --color-talon: #f2b632;
+  --color-lagoon: #3fb7a6;
+}
+
+body { @apply bg-ink text-snow font-sans antialiased; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
